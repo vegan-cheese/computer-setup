@@ -25,7 +25,7 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 
 # Install Packages
 dnf check-update
-sudo dnf install code brave-browser yakuake steam python3-pip neovim git gh gcc-c++ cmake ninja-build piper kicad rpi-imager
+sudo dnf install code brave-browser yakuake steam python3-pip neovim git gh gcc-c++ cmake ninja-build piper kicad rpi-imager cascadia-code-fonts
 
 flatpak install flathub com.github.tchx84.Flatseal com.bitwarden.desktop org.gimp.GIMP org.onlyoffice.desktopeditors org.thonny.Thonny org.prismlauncher.PrismLauncher com.discordapp.Discord
 
